@@ -32,8 +32,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=dubeyshagun29
-            -Dsonar.projectKey=Dubeyshagun29_HCL_Demo
+            -Dsonar.organization=dvwa-test
+            -Dsonar.projectKey=dvwa-test_dvwa-sast
             -Dsonar.sources=.
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.exclusions=**/obj/**,**/*.dll
