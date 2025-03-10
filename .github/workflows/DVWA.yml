@@ -1,4 +1,4 @@
-name: "DVWA Security Testing"
+name: "DVWA Testing"
 
 on:
   push:
