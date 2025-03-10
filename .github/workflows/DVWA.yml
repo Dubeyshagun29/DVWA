@@ -44,7 +44,7 @@ jobs:
         uses: stackhawk/hawkscan-action@v2
         continue-on-error: false  # ✅ Stops if the scan fails
         with:
-          apiKey: ${{ secrets.HAWK_API_KEY }}
+          apiKey: ${{ secrets.HAWK_API_KEY_DVWA }}
           codeScanningAlerts: true
 
           githubToken: ${{ github.token }}
